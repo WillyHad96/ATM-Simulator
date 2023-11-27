@@ -1,2 +1,2 @@
 # Fintech
-#This is the e-Place where I take record of all my Fintech projects
+This is the e-Place where I take record of all my Fintech projects
