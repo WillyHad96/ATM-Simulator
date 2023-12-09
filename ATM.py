@@ -1,9 +1,15 @@
+#IMPORTING LIBRARIES
+
 import time
 import sys
+
+#CONSTANTS
 
 user_balance = 100
 user_pin = '1996'
 transactions = ['NA'] * 10
+
+#FUNCTIONS
 
 def display_balance():
     print("Display Balance")
