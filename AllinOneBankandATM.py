@@ -29,7 +29,6 @@ def create_window(window_identifier):
     label.pack()
 
     return new_window
-    #First Commit
 
 def register():                             #REGISTER SCREEN
     global name
