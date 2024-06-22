@@ -3,7 +3,6 @@ from tkinter import *
 import tkinter as tk
 from PIL import ImageTk, Image
 import sqlite3
-#First Commit
 
 #variables
 user_balance = 0
@@ -24,7 +23,7 @@ def create_window(window_identifier):
     frame.place(anchor='center', relx=0.5, rely=0.5)
 
     # Create the Image Background
-    img = ImageTk.PhotoImage(Image.open("AllinOneBankandATM/ATM Image.png"))     
+    img = ImageTk.PhotoImage(Image.open("ATM Image.png"))     
     label = Label(frame, image=img)                                         
     label.image = img  
     label.pack()
@@ -96,7 +95,7 @@ def sign_in_screen():                       #SIGN IN SCREEN
     frame.place(anchor='center', relx=0.5, rely=0.5)
 
     # Create the Image Background
-    img = ImageTk.PhotoImage(Image.open("AllinOneBankandATM/ATM Image.png"))     
+    img = ImageTk.PhotoImage(Image.open("ATM Image.png"))     
     label = Label(frame, image=img)                                         
     label.image = img  # Keep a reference to the image to prevent it from being garbage collected
     label.pack()
@@ -121,7 +120,7 @@ def sign_in_screen():                       #SIGN IN SCREEN
             correct_pin_window.lift(sign_in_window)
 
             # Create the Image Background
-            img = ImageTk.PhotoImage(Image.open("AllinOneBankandATM/ATM Image.png"))
+            img = ImageTk.PhotoImage(Image.open("ATM Image.png"))
             label = Label(correct_pin_window, image=img)
             label.image = img  # Keep a reference to the image to prevent it from being garbage collected
             label.pack()
@@ -143,7 +142,7 @@ def sign_in_screen():                       #SIGN IN SCREEN
             incorrect_pin_window.lift(sign_in_window)
 
             # Create the Image Background
-            img = ImageTk.PhotoImage(Image.open("AllinOneBankandATM/ATM Image.png"))
+            img = ImageTk.PhotoImage(Image.open("ATM Image.png"))
             label = Label(incorrect_pin_window, image=img)
             label.image = img  # Keep a reference to the image to prevent it from being garbage collected
             label.pack()
@@ -374,7 +373,7 @@ frame.place(anchor='center', relx=0.5, rely=0.5)
 
 
 # Create the Image Background
-img = ImageTk.PhotoImage(Image.open("AllinOneBankandATM/ATM Image.png"))    
+img = ImageTk.PhotoImage(Image.open("ATM Image.png"))    
 label = Label(frame, image=img)                                         
 label.pack()
 
