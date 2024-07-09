@@ -29,21 +29,28 @@ This ATM Simulator is a Python-based project that utilizes the tkinter library f
 1. Clone the repository:
    
 ```
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/WillyHad96/ATM-Simulator/tree/main.git
 ```
 
 2. Navigate to the project directory:
    
 ```
-cd your-repo-name
+cd C:\Users\Usuario\OneDrive\Escritorio\My Coding Projects\Cloned Repositories\ATM-Simulator\.git\ATM-Simulator\
 ```
 
 3. Install the required libraries:
    
 ```
-pip install Pillow
+pip install pillow
 ```
 
+```
+pip install tkinter
+```
+
+```
+pip install sqlite3
+```
 
 
 **Usage**
@@ -51,7 +58,7 @@ pip install Pillow
 1. Run the application:
    
 ```
-python atm.py
+python AllinOneBankandATM.py
 ```
 
 2. Register a new card:
