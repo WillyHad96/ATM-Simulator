@@ -36,7 +36,7 @@ git clone https://github.com/WillyHad96/ATM-Simulator/tree/main.git
 2. Navigate to the project directory:
    
 ```
-cd C:\Users\Usuario\OneDrive\Escritorio\My Coding Projects\Cloned Repositories\ATM-Simulator\.git\ATM-Simulator\
+cd C:\Users\Usuario\OneDrive\Escritorio\Cloned Repositories\ATM-Simulator\.git\ATM-Simulator\
 ```
 
 3. Install requirements.txt:
