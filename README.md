@@ -6,7 +6,10 @@ This ATM Simulator is a Python-based project that utilizes the tkinter library f
 
 **GUI**
 
-<img src="https://github.com/WillyHad96/ATM-Simulator/blob/main/ATM%20Video.mp4" alt="Screenrecording" width="600" height="600">
+**GUI**
+
+[![Screenrecording](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://github.com/WillyHad96/ATM-Simulator/blob/main/ATM%20Video.mp4)
+
 
 
 
