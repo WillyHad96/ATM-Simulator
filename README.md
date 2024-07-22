@@ -51,7 +51,7 @@ pip install -r requirements.txt
 1. Run the application:
    
 ```
-python AllinOneBankandATM.py
+python ATM.py
 ```
 
 2. Register a new card:

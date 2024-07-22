@@ -7,7 +7,7 @@ import sqlite3
 #variables
 user_balance = 0
 transactions = ["NA"]*10 
-pin_value = 1111
+pin_value = 1111    #This PIN is in case you don't want to save your card details
 
 # functions
         
