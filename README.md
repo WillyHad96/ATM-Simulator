@@ -6,9 +6,7 @@ This ATM Simulator is a Python-based project that utilizes the tkinter library f
 
 **GUI**
 
-**GUI**
-
-[![Screenrecording](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://github.com/WillyHad96/ATM-Simulator/blob/main/ATM%20Video.mp4)
+<img src="https://github.com/WillyHad96/ATM-Simulator/blob/main/ATM%20Video.gif" alt="Screenrecording" width="600" height="600">
 
 
 
@@ -53,7 +51,7 @@ pip install -r requirements.txt
 1. Run the application:
    
 ```
-python ATM.py
+python AllinOneBankandATM.py
 ```
 
 2. Register a new card:
