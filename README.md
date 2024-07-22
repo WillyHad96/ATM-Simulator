@@ -38,25 +38,10 @@ git clone https://github.com/WillyHad96/ATM-Simulator/tree/main.git
 cd C:\Users\Usuario\OneDrive\Escritorio\My Coding Projects\Cloned Repositories\ATM-Simulator\.git\ATM-Simulator\
 ```
 
-<<<<<<< HEAD
 3. Install requirements.txt:
    
 ```
 pip install -r requirements.txt
-=======
-3. Install the required libraries:
-   
-```
-pip install pillow
-```
-
-```
-pip install tkinter
-```
-
-```
-pip install sqlite3
->>>>>>> 74fdd75f1b0a3bcff0571c20e2a6dfb49ab9fa53
 ```
 
 
