@@ -265,7 +265,7 @@ def deposit_funds():
                 global user_balance
                 user_balance += button_amount
                 save_transaction(f"Deposited ${button_amount}")
-                successful_deposited_window = create_window('succesful_deposited_window')
+                successful_deposited_window = create_window('successful_deposited_window')
                 Label(successful_deposited_window, text=f'Successfully Deposited ${button_amount}!', font=('Calibri', 10, 'bold'), fg="white", bg="#164794").place(x=330, y=450)
                 successful_deposited_window.after(3000, successful_deposited_window.destroy)
                 deposit_window.after(3001, deposit_window.destroy)
@@ -333,11 +333,11 @@ def change_pin():
 
 def transfer_funds():
     transfer_funds_window = create_window('transfer_funds_window')
-    def succesfully_transferred_funds():
+    def successfully_transferred_funds():
         save_transaction("Funds Transferred")
-        succesfully_transferred_funds_window = create_window("succesfully_transferred_funds_window")
-        Label(succesfully_transferred_funds_window, text="Funds succesfully transferred!", font=('Calibri', 10, 'bold'), fg="white", bg="#164794").place(x=320, y=450)
-        succesfully_transferred_funds_window.after(3000, succesfully_transferred_funds_window.destroy)
+        successfully_transferred_funds_window = create_window("successfully_transferred_funds_window")
+        Label(successfully_transferred_funds_window, text="Funds successfully transferred!", font=('Calibri', 10, 'bold'), fg="white", bg="#164794").place(x=320, y=450)
+        successfully_transferred_funds_window.after(3000, successfully_transferred_funds_window.destroy)
         transfer_funds_window.after(3001, transfer_funds_window.destroy)
         
 
@@ -350,7 +350,7 @@ def transfer_funds():
     Label(transfer_funds_window, text="BIC:", font=('Calibri', 10, 'bold'), fg="white", bg="#164794").place(x=375, y=500)
     Entry(transfer_funds_window, font=('Calibri', 12), width=6).place(x=362, y=525)
 
-    enter_button = Button(transfer_funds_window, text="Enter", command=succesfully_transferred_funds, width=10)
+    enter_button = Button(transfer_funds_window, text="Enter", command=successfully_transferred_funds, width=10)
     enter_button.place(x=480, y=535)
     cancel_button = Button(transfer_funds_window, text="Cancel", command=transfer_funds_window.destroy, width=10)
     cancel_button.place(x=240, y=535)
